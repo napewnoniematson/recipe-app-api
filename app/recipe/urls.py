@@ -8,6 +8,7 @@ router = DefaultRouter()
 # router (I guess) generates extra urls for different actions for ViewSets
 router.register('tags', views.TagViewSet)  # for recipe/tag
 router.register('ingredients', views.IngredientViewSet)  # for recipe/tag
+router.register('recipes', views.RecipeViewSet)
 
 app_name = 'recipe'
 
